@@ -1,0 +1,44 @@
+# ---------- 依赖 ----------
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ---------- 构建产物 ----------
+dist/
+build/
+out/
+target/
+*.egg-info/
+
+# ---------- 日志与缓存 ----------
+*.log
+logs/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.eslintcache
+
+# ---------- 环境变量 / 密钥 ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------- 编辑器 / IDE ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 本地工具数据 ----------
+.workbuddy-ai/
